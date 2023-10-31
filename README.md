@@ -6,7 +6,7 @@
 
 ## Link To Application
 
-https://ablam87.github.io/
+https://ablam87.github.io/Adam-Blampied-Developer-Portfolio/
 
 ## Installation
 
