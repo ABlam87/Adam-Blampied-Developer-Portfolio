@@ -2,7 +2,7 @@
 
 ## Description
 
-
+An online portfolio to house all my created applications over the course of my professional coding career! Hooray!
 
 ## Link To Application
 
@@ -14,16 +14,11 @@ N/A
 
 ## Usage
 
+Transitions have been used for the graphic links to my work, complete with glow and sub-heading appearing on mouse hover, explaining the nature of the application
 
-![Screenshot of general rules in CSS File](Assets/Screenshot-Horiseon-CSS-File.PNG)
+Media queries are used to compensate for text overlow on the work subheadings
 
-
-All general rules are listed at the top of the CSS, as pictured. Rules for specific elements are grouped beneath, as per page layout.
-
-
-![Fixed link](./Assets/SEO-link.PNG)
-
-The ID attribute was missing from the HTML file for this element, meaning that the link didn't cause the page to scroll as intended. This has now been fixed.
+Media queries are used to optimise the page for mobile viewing
 
 ## Credit 
 
