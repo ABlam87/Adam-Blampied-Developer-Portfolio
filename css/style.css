@@ -25,6 +25,10 @@ p {
   font-size: 20px;
 }
 
+.block {
+  display: inline-block;
+}
+
 /*Header and NavBar*/
 
 header {
@@ -162,10 +166,11 @@ nav a:hover {
     ;
 }
 
-article {
+.worklink {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  text-decoration: none;
   cursor: pointer;
   display: grid;
   align-content: end;
@@ -200,13 +205,13 @@ article {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-article:hover {
+.worklink:hover {
   box-shadow: inset 0px 0px 8px
   var(--jasmine), 0 0 15px
   var(--jasmine);
   }
 
-article:hover .worksub {
+.worklink:hover .worksub {
   display: inline-block;
   margin-left: 3px;
 }
