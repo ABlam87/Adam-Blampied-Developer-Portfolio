@@ -241,3 +241,65 @@ nav a:hover {
 #contact p {
   color: var(--jasmine);
 }
+
+/*Media Queries*/
+
+@media only screen and (max-width:1068px) {
+  .worktitle {
+    font-size: 16px;
+    font-weight: 900;
+  }
+  .worktitle2 {
+    font-size: 12px;
+    font-weight: 900;
+  }
+  #contact h1{
+    display: inline-block;
+    padding-left: 150px;
+  }
+  #contact div {
+    display: block;
+  }
+}
+
+
+@media only screen and (max-width:790px) {
+  nav {
+    display: none;
+  }
+  #about {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "abouthead"
+    "aboutcopy";
+  }
+  #abouthead, #aboutcopy, #workhead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid var(--green);
+    border-right: none;
+  }
+  #workgrid {
+    display: grid;
+    padding: 10px;
+    grid-template-rows: 50px 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "work"
+    "horiseon"
+    "cheatsheet"
+    "garfield"
+    "threat"
+    "eye";
+  }
+  #contact {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  #contact div {
+    display: block;
+  }
+}
